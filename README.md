@@ -31,14 +31,14 @@ cp .env.example .env
 ```
 
 4. **Start MongoDB and Redis**
-```bash
 # Using Docker
+```bash
 docker-compose up -d mongo redis
-
-# OR install locally
-# MongoDB: https://www.mongodb.com/docs/manual/installation/
-# Redis: https://redis.io/docs/getting-started/installation/
 ```
+
+OR install locally
+MongoDB: https://www.mongodb.com/docs/manual/installation/
+Redis: https://redis.io/docs/getting-started/installation/
 
 5. **Seed sample data**
 ```bash
