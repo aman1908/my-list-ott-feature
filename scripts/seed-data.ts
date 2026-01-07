@@ -178,7 +178,7 @@ const sampleTVShows = [
 
 const sampleUsers = [
   {
-    username: 'john_doe',
+    username: 'amanK',
     preferences: {
       favoriteGenres: ['Action', 'SciFi'],
       dislikedGenres: ['Horror'],
@@ -186,7 +186,7 @@ const sampleUsers = [
     watchHistory: [],
   },
   {
-    username: 'jane_smith',
+    username: 'aman19',
     preferences: {
       favoriteGenres: ['Romance', 'Comedy', 'Drama'],
       dislikedGenres: ['Horror', 'SciFi'],
@@ -194,7 +194,7 @@ const sampleUsers = [
     watchHistory: [],
   },
   {
-    username: 'mike_wilson',
+    username: 'KumarA',
     preferences: {
       favoriteGenres: ['Fantasy', 'Action', 'SciFi'],
       dislikedGenres: ['Romance'],
@@ -202,7 +202,7 @@ const sampleUsers = [
     watchHistory: [],
   },
   {
-    username: 'sarah_johnson',
+    username: 'aman_kumar',
     preferences: {
       favoriteGenres: ['Comedy', 'Drama'],
       dislikedGenres: [],
@@ -219,7 +219,7 @@ async function seedData() {
     await connectDatabase();
 
     // Clear existing data
-    console.log('🗑️  Clearing existing data...');
+    console.log('Clearing existing data...');
     await Promise.all([
       UserModel.deleteMany({}),
       MovieModel.deleteMany({}),
@@ -305,7 +305,6 @@ async function seedData() {
 
     // Print summary
     console.log('Seeding Summary:');
-    console.log('==================');
     console.log(`Users: ${users.length}`);
     console.log(`Movies: ${movies.length}`);
     console.log(`TV Shows: ${tvShows.length}`);
