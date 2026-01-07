@@ -1,6 +1,6 @@
 # My List - OTT Platform Feature
 
-A backend service for managing user's "My List" feature in an OTT (Over-The-Top) platform. Built with TypeScript, Express.js, MongoDB, and Redis for optimal performance.
+A backend service for managing user's "My List" feature in an OTT platform. Built with TypeScript, Express.js, MongoDB, and Redis for optimal performance.
 
 ## Getting Started
 
